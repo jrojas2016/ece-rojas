@@ -1,0 +1,485 @@
+$grey = #333333
+$lblue = #55acee
+
+body
+	rupture.scale =		0        730px      900px    1800px 	3000px
+
+	margin 0
+
+	@import url('http://fonts.googleapis.com/css?family=Dosis:400,500|Quicksand:300|Asap');
+
+	/* Web Page Divisions*/
+	.bar 
+		height: auto
+		width: 100%
+		margin: none
+		text-align: left
+		background-color: $grey
+
+	.header
+		height: 300px
+		width: 100%
+		background: url("images/silicon_fab_header.jpg") no-repeat center center fixed
+		background-size: 100% 100%
+		background-position: 0 0
+		margin: 0
+		text-align: center
+		+at(1)
+			height 200px
+		+at(4)
+			height 400px
+
+	.ed-header
+		height: 300px
+		width: 100%
+		background: url("images/sit_eas.jpg") no-repeat center center fixed
+		background-size: 100% 100%
+		background-position: 0 0
+		margin: 0
+		text-align: center
+		+at(1)
+			height 200px
+		+at(4)
+			height 400px
+
+	.work-header
+		height: 300px
+		width: 100%
+		background: url("images/picture_hs.jpg") no-repeat center center fixed
+		background-size: 100% 100%
+		background-position: 0 0
+		margin: 0
+		text-align: center
+		+at(1)
+			height 200px
+		+at(4)
+			height 400px
+
+	.proj-header
+		height: 300px
+		width: 100%
+		background: url("images/ee-prototype.JPG") no-repeat center center fixed
+		background-size: 100% 100%
+		background-position: 0 0
+		margin: 0
+		text-align: center
+		+at(1)
+			height 200px
+		+at(4)
+			height 400px
+
+	.org-header
+		height: 300px
+		width: 100%
+		background: url("images/fencing.jpg") no-repeat center center fixed
+		background-size: 100% 100%
+		background-position: 0 0
+		margin: 0
+		text-align: center
+		+at(1)
+			height 200px
+		+at(4)
+			height 400px
+
+	.gsection
+		background-color: $grey
+
+	.bsection
+		background-color: $lblue
+
+	div.sections
+		height: auto
+		width: 100%
+		text-align: center
+		margin: 0
+		overflow: hidden
+
+	div.summary
+		height: auto
+		width: 50% 
+		margin: 0 0 0 28%
+		float: left
+		vertical-align: center
+		display: inline-block
+		+at(1)
+			margin: 1%
+			width: 100%
+		+at(2)
+			margin: 0 0 0 10%
+			width: 80%
+		
+	div.school
+		height: auto
+		width: 38% 
+		margin: 3% 0 0 12%
+		display: inline-block
+		float: left
+		vertical-align: top
+		+at(1)
+			text-align: center
+			margin: 2%
+			width: 100%
+
+	div.school2
+		height: auto
+		width: 38% 
+		margin: 3% 0 0 4%
+		display: inline-block
+		float: left
+		vertical-align: top
+		+at(1)
+			text-align: center
+			margin: 2%
+			width: 100%
+
+	div.company
+		height: auto
+		width: 28% 
+		margin: 0
+		margin-top: 3%
+		margin-left: 4%
+		display: inline-block
+		float: left
+		vertical-align: top
+		+at(1)
+			text-align: center
+			margin: 2%
+			width: 100%
+		
+	div.products
+		height: auto
+		width: 28%
+		margin: 0
+		margin-top: 3%
+		margin-left: 4%
+		margin-bottom: 2%
+		display: inline-block
+		float: left
+		vertical-align: top
+		+at(1)
+			text-align: center
+			margin: 2%
+			width: 100%
+		
+	div.organizations
+		height: auto
+		width: 28% 
+		margin: 0
+		margin-top: 3%
+		margin-left: 4%
+		display: inline-block
+		float: left
+		vertical-align: top
+		+at(1)
+			text-align: center
+			margin: 2%
+			width: 100%
+		
+	div.section_img
+		width: 100% 
+		height: 100px
+		margin: 0px
+		
+	div.contact_me
+		height: 100px
+		width: 100%
+		margin: none
+		vertical-align: center
+		text-align: center
+		background-color: $lblue
+		overflow: hidden
+
+	.buttons
+		height: 75px
+		width: 100%
+		padding-top: 10px
+		text-align: center
+		+at(1)
+			height: 50px
+
+	/* Web Page Elements*/
+	img.profile_pic
+		height: 300px
+		width: 280px
+		margin: 40px 0 0 0
+		border-radius: 300px
+		+at(1)
+			margin: 20px 5px 5px 5px
+
+	img.logos
+		height: 100px
+		width: 100px
+		display: inline-block
+		margin: 0 0 8% 0
+		border-radius: 50px
+		
+
+	.btn
+		overflow: hidden
+		cursor: pointer
+		margin: 12px 1%
+		border-radius: 30px
+		text-decoration: none
+		padding: 5px 30px
+		font-size: 16px
+		font-family: 'Asap', sans-serif
+		transition: .3s
+		-webkit-transition: .3s
+		-moz-transition: .3s
+		-o-transition: .3s
+		display: inline-block
+		+at(1)
+			padding: 5px
+			font-size: 12px
+			margin: 10px 1px 1px 1px
+
+	.blue
+		color: $lblue
+		border: 2px $lblue solid
+		
+	.blue:hover
+		background-color: $lblue
+		color: #fff
+		
+
+	/* To invert color of buttons for blue divisions
+	.gray
+		color: $grey
+		border: 2px $grey solid
+		
+
+	.gray:hover
+		background-color: $grey
+		color: #fff
+		*/
+
+	.css-input 
+		padding:5px 
+		font-size:16px 
+		border-width:2px 
+		border-radius:5px 
+		border-style:hidden 
+		border-color:$lblue 
+		color:$lblue 
+		text-shadow:0px 0px 0px 
+		rgba(42,42,42,.52) 
+		font-weight:normal 
+		font-style:none 
+		font-family:sans-serif  
+		width: 300px
+		display: inline-block
+		margin: 40px 0 40px 0
+		 
+	.css-input:focus 
+		outline:none
+		
+
+	.dap_textarea 
+		resize:none
+		background:#F8F8F8
+		display: block
+		margin: 0 auto 0 auto
+		color:$lblue
+		border:1px solid #DCDCDC
+		border-radius:10px 
+		font-size:16px 
+		width: 66%
+		height: 200px
+		padding: 8px 
+		box-shadow: 0px 0px 0px #FFFFFF 
+		-webkit-box-shadow: 0px 0px 0px #FFFFFF 
+		-moz-box-shadow: 0px 0px 0px #FFFFFF 	
+
+	@font-face
+		font-family 'si'
+		src url('socicon-1.3/socicon.eot')
+		src url('socicon-1.3/socicon.eot?#iefix') format('embedded-opentype'),
+			url('socicon-1.3/socicon.woff') format('woff'),
+			url('socicon-1.3/socicon.ttf') format('truetype'),
+			url('socicon-1.3/socicon.svg#icomoonregular') format('svg')
+		font-weight normal
+		font-style normal
+
+	@media screen and (-webkit-min-device-pixel-ratio 0)
+		@font-face
+			font-family si
+			src url('file:///Users/jorgee/GitHub/Personal_Website/views/socicon-1.3/socicon.svg') format(svg)
+
+		.soc
+			overflow hidden
+			margin 0
+			padding 0
+			padding-top 30px
+			list-style none
+
+	.soc
+		li
+			display inline-block
+			*display inline
+			zoom 1
+			a
+				font-family si!important
+				font-style normal
+				font-weight 400
+				-webkit-font-smoothing antialiased
+				-moz-osx-font-smoothing grayscale
+				-webkit-box-sizing border-box
+				-moz-box-sizing border-box
+				-ms-box-sizing border-box
+				-o-box-sizing border-box
+				box-sizing border-box
+				-o-transition .1s
+				-ms-transition .1s
+				-moz-transition .1s
+				-webkit-transition .1s
+				transition .1s
+				-webkit-transition-property transform
+				transition-property transform
+				-webkit-transform translateZ(0)
+				transform translateZ(0)
+				overflow hidden
+				text-decoration none
+				text-align center
+				display block
+				position relative
+				z-index 1
+				width 40px
+				height 40px
+				line-height 40px
+				font-size 22px
+				-webkit-border-radius 65px
+				-moz-border-radius 65px
+				border-radius 65px
+				margin-right 50px
+				color white
+				background-color $grey
+		a
+			&:hover
+				color: $lblue
+				background-color: #ffffff
+				z-index 2
+				-webkit-transform scale(1.1)
+				transform scale(1.1)
+				-webkit-transition: .3s
+				-moz-transition: .3s
+				-o-transition: .3s
+
+	.soc-icon-last
+		margin 0 !important
+
+	.soc-email1
+		&:before
+			content '<'
+
+	.soc-linkedin
+		&:before
+			content 'j'
+
+	.soc-github
+		&:before
+			content 'Q'
+
+	/* Text Style*/
+	a:link.lblue
+		color: $lblue
+		text-decoration: none
+		font-size: 12px
+		font-family: 'Asap', sans-serif
+		
+	a:visited
+		color:$lblue
+		text-decoration: none
+		font-size: 12px
+		font-family: 'Asap', sans-serif	
+
+	a:link.sia, a:visited.sia
+		color: white
+		font-size: 16px
+		font-family: 'Quicksand', sans-serif
+		font-weight: 300
+		text-align: left
+		text-decoration: none
+		line-height: 200%
+		padding-top: 10px
+		margin: 0 1% 8% 2%
+		letter-spacing: 2px
+	a:hover.sia
+		color: $lblue
+
+	h1
+		color: white
+		text-shadow: 5px 5px 5px #000
+		font-size: 60px
+		font-weight: 400
+		font-family: 'Dosis', sans-serif
+		text-align: center
+		padding-top: 100px
+		letter-spacing: 25px
+		margin: 0px	
+		+at(1)
+			padding-top: 80px
+			letter-spacing: 10px
+			font-size: 32px
+		+at(4)
+			padding-top: 170px
+
+	h2
+		padding-top: 10px
+		font-size: 46px
+		font-family: 'Dosis', sans-serif
+		font-weight: 500
+		text-align: center
+		margin: 0
+		margin-top: 10px
+		
+	h2.lightblue2
+		color: $lblue
+		
+	h2.grey2
+		color: $grey
+		
+	h3
+		padding-top: 10px
+		font-size: 28px
+		font-family: 'Dosis', sans-serif
+		font-weight: 500
+		margin: 0 0 4% 0
+		text-align: center
+		letter-spacing: 2px
+		margin: 0
+		
+	h3.lightblue3
+		color: $lblue
+		
+	h3.grey3
+		color: $grey
+
+	p
+		color: white
+		font-size: 16px
+		font-family: 'Quicksand', sans-serif
+		font-weight: 300
+		text-align: left
+		line-height: 200%
+		padding-top: 10px
+		margin: 0 1% 8% 2%
+		letter-spacing: 2px
+		
+	p.ps
+		text-align: left
+		padding-top: 50px
+		margin: 0
+		margin-bottom: 3%
+		display: inline-block
+		+at(1)
+			padding-top: 0
+			margin: 5px 
+			margin-left: 5%
+			margin-right: 5%
+		
+	p.c
+		text-align: center
+		margin-left: 0
+		+at(1)
+			padding-top: 0
+			margin: 2%

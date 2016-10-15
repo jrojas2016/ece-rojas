@@ -1,0 +1,22 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jr_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrojas2016/Personal_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrojas2016/Personal_Website/issues"
+  },
+  "homepage": "https://github.com/jrojas2016/Personal_Website#readme",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
